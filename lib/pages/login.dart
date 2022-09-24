@@ -58,7 +58,7 @@ class _LoginPageState extends State<LoginPage> {
       additionalSignupFields: [
         UserFormField(
           keyName: 'type',
-          userType: LoginUserType.phone,
+          userType: LoginUserType.name,
           displayName: 'type',
           icon: const Icon(Icons.type_specimen_rounded),
           defaultValue: 'user',
